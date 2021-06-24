@@ -1,0 +1,96 @@
+@media (max-width: 376px) {
+  .footer {
+    display: none;
+  }
+  .content {
+    &__box {
+      margin-top: 17px;
+      &-info h3 {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 6px;
+      }
+      &-info p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 0;
+      }
+     
+     
+    }
+
+    &__box-holder {
+      width: 100%;
+      padding: 19px 16px 0 16px;
+      &-img img {
+        max-height: 324px;
+      }
+    }
+  }
+  .button-desktop2-btn {
+    width: 147px;
+    padding: 15px 15px;
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .step__block_wrap {
+    margin-top: 82px;
+  }
+  .step__block-content-title {
+    margin-bottom: 20px;
+  }
+  .block__gender {
+    padding: 0 15px;
+    &-btn button{
+        margin-bottom: 10px;
+    } 
+  }
+  .block__date{
+      padding:0 26px 24px 20px;
+  }
+  .block__gender-month {
+    width: 100px;
+  }
+  .block__gender-day {
+    width: 86px;
+  }
+  .block__gender-year {
+    width: 86px;
+  }
+  .copywrite {
+      margin-bottom: 24px;
+    &__text {
+      font-size: 14px;
+      line-height: 155%;
+    }
+    &__link-item{
+        font-size: 14px;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .block__gender-text::after {
+    right: 7px;
+    padding: 10px;
+    top: 57%;
+  }
+}
+
+@media (max-width: 350px) {
+  .block__gender-text {
+    padding: 5px;
+    &::after {
+      right: 2px;
+      top: 62%;
+    }
+  }
+  .copywrite {
+    &__text {
+      font-size: 12px;
+      line-height: 155%;
+    }
+    &__link-item{
+        font-size: 12px;
+    }
+  }
+}
